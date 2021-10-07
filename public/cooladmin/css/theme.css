@@ -460,6 +460,29 @@ section {
     cursor: pointer;
 }
 
+.sign-btn {
+   margin-top: 70px;
+    line-height: 20px;
+    padding: 0 35px;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.sign-s{
+    margin-left: 75px;
+    padding: 15px;
+    margin-bottom: 40px;
+    margin-top: 2px;
+}
+
 .au-btn:hover {
     color: #fff;
     background: #3868cd;
@@ -2127,6 +2150,26 @@ section {
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
     z-index: 1000;
+}
+
+.menu-sidebarp {
+    /* width: 300px; */
+    position: fixed;
+    /* left: 0; */
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    overflow-y: auto;
+    /* height: 100vh; */
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 1000;
+}
+
+.logoimg{
+    padding-top: 12px;
 }
 
 .menu-sidebar2 .logo {
@@ -3861,7 +3904,6 @@ section {
 }
 
 .task-progress {
-    border: 1px solid  #e5e5e5;
     background: #fff;
     padding: 40px;
     padding-top: 42px;
@@ -5091,6 +5133,7 @@ section {
     color: #808080;
     display: inline-block;
     margin-bottom: 9px;
+    padding-bottom: 16px;
 }
 
 .au-progress__value {
