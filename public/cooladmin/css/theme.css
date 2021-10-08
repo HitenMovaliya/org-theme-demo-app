@@ -461,9 +461,9 @@ section {
 }
 
 .sign-btn {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     line-height: 10px;
-    padding: 0 30px;
+    /* padding: 0 30px; */
     text-transform: uppercase;
     color: #fff;
     -webkit-border-radius: 3px;
@@ -476,11 +476,19 @@ section {
     cursor: pointer;
 }
 
+.sign_style{
+    text-align: center; 
+    justify-content: center; 
+    margin-bottom: 10px; 
+    border-bottom: 1px  solid #f2f2f2;
+    margin-left: 87px;
+
+}
 .sign-s{
-    margin-left: 75px;
-    padding: 15px;
-    margin-bottom: 40px;
-    margin-top: 2px;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
 }
 
 .au-btn:hover {
@@ -1431,6 +1439,31 @@ section {
     cursor: pointer;
 }
 
+.header-img{
+    background-color: #365cad !important;
+}
+
+.header-content{
+    color:white;
+}
+
+.img-header{
+    justify-content: center;
+}
+
+.name-bar{
+    display: inline-grid;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.header-fixes{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10000000;
+
+}
 .account-item .image {
     width: 45px;
     height: 45px;
@@ -1474,7 +1507,7 @@ section {
     min-width: 305px;
     position: absolute;
     top: 58px;
-    right: 0;
+    right: -64px;
     background: #fff;
     -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
@@ -1545,15 +1578,15 @@ section {
 .account-dropdown:after {
     content: '';
     display: block;
-    width: 19px;
-    height: 19px;
+    width: 22px;
+    height: 14px;
     border-bottom: 9px solid #fff;
     border-top: 9px solid transparent;
     border-left: 9px solid transparent;
     border-right: 9px solid transparent;
     position: absolute;
     top: -18px;
-    right: 33px;
+    right: 57px;
 }
 
 .account-dropdown__item a {
@@ -1827,7 +1860,7 @@ section {
 }
 
 .header-mobile-2 {
-    background: #393939;
+    background: #365cad;
     position: static;
 }
 
@@ -1869,7 +1902,7 @@ section {
 }
 
 .sub-header-mobile-2 .header__tool .account-wrap .account-item--style2 .content a {
-    color: #333;
+    color: rgb(20, 69, 246);
 }
 
 .sub-header-mobile-2 .header__tool .notifi-dropdown {
@@ -2627,6 +2660,11 @@ section {
     right: 0;
 }
 
+.header-size{
+    padding: 15px !important;
+    height: 83px !important;
+}
+
 .header-desktop3 {
     background: #393939;
     display: -webkit-box;
@@ -2710,6 +2748,11 @@ section {
     align-items: center;
     position: relative;
     z-index: 3;
+}
+
+
+.header-icon{
+    margin: 11px;
 }
 
 .header__navbar ul {
@@ -2905,7 +2948,7 @@ section {
     position: absolute;
     width: 100%;
     height: 3px;
-    background: #4272d7;
+    background: #f8f9f9;
     left: 0;
     bottom: 0;
     opacity: 0;
@@ -2981,7 +3024,7 @@ section {
 }
 
 .account-item--style2 .account-dropdown {
-    top: 61px;
+    top: 68px;
 }
 
 .account-item--style2 .account-dropdown .info .image {
@@ -3912,12 +3955,13 @@ section {
 }
 
 .task-progress {
+    border-bottom: 1px solid #f2f2f2;
     background: #fff;
-    padding: 40px;
-    padding-top: 42px;
-    padding-right: 55px;
-    padding-bottom: 74px;
-    margin-bottom: 40px;
+    padding: 23px;
+    padding-top: 9px;
+    padding-right: 21px;
+    padding-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .task-progress .title-3 {
