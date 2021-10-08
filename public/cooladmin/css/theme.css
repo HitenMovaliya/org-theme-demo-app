@@ -476,19 +476,15 @@ section {
     cursor: pointer;
 }
 
-.sign_style{
-    text-align: center; 
-    justify-content: center; 
-    margin-bottom: 10px; 
-    border-bottom: 1px  solid #f2f2f2;
-    margin-left: 87px;
 
-}
 .sign-s{
     width: auto;
     padding: 10px;
     text-align: center;
     justify-content: center;
+    margin-bottom: 10px; 
+    border-bottom: 1px  solid #f2f2f2;
+    margin-left: 87px;
 }
 
 .au-btn:hover {
@@ -1458,10 +1454,10 @@ section {
 }
 
 .header-fixes{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 10000000;
+    position: fixed !important;
+    top: 0px !important;
+    width: 100% !important;
+    z-index: 1001 !important;
 
 }
 .account-item .image {
@@ -1507,7 +1503,7 @@ section {
     min-width: 305px;
     position: absolute;
     top: 58px;
-    right: -64px;
+    right: -85px;
     background: #fff;
     -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
@@ -1580,7 +1576,7 @@ section {
     display: block;
     width: 22px;
     height: 14px;
-    border-bottom: 9px solid #fff;
+    border-bottom:9px solid #4272d7;
     border-top: 9px solid transparent;
     border-left: 9px solid transparent;
     border-right: 9px solid transparent;
@@ -1716,6 +1712,7 @@ section {
     top: 0;
     left: 0;
     right: 0;
+    z-index:1001;
 }
 
 .header-mobile .header-mobile__bar {
@@ -1902,7 +1899,7 @@ section {
 }
 
 .sub-header-mobile-2 .header__tool .account-wrap .account-item--style2 .content a {
-    color: rgb(20, 69, 246);
+    color:#fff;
 }
 
 .sub-header-mobile-2 .header__tool .notifi-dropdown {
@@ -2663,6 +2660,7 @@ section {
 .header-size{
     padding: 15px !important;
     height: 83px !important;
+    z-index: 2;
 }
 
 .header-desktop3 {
