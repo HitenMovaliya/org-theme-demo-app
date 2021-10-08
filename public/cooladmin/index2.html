@@ -37,7 +37,7 @@
 </head>
 
 <body class="animsition">
-    <div class="page-wrapper">
+    <div class="page-container">
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar2">
             <div class="logo">
@@ -57,7 +57,7 @@
                     <div class="image img-cir img-120">
                         <img src="images/icon/avatar-big-01.jpg" alt="John Doe" />
                     </div>
-                    <div class="content">
+                    <div class="content name-bar">
                         <h5 class="name">
                             <a href="#">Hiten Movaliya</a>
                         </h5>
@@ -70,7 +70,7 @@
                             <div class="col-xl-10">
                                 <div class="task-progress">
                                     <div class="au-skill-container">
-                                        <div class="au-progress">
+                                        <div class="au-progress ">
                                             <span class="au-progress__title">Daily
                                                 Progress</span>
                                             <div class="au-progress__bar">
@@ -103,8 +103,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="sign-s sign-btn au-btn-icon au-btn--green">
-                                <i class="zmdi zmdi-power"></i>Signout</button>
+                            <div  style="justify-content: center;text-align: center;" >
+                                <button  type="button" class=" btn btn-outline-primary sign-s sign-btn au-btn-icon au-btn-sign">
+                                    <i class="zmdi zmdi-power"></i>Signout</button> 
+                            </div>
                         </div>
                     </ul>
                 </nav>
@@ -113,7 +115,7 @@
         <!-- END MENU SIDEBAR-->
 
         <!-- PAGE CONTAINER-->
-        <div class="page-container2">
+        <!-- <div class="page-container2"> -->
             <!-- HEADER DESKTOP-->
             <header class="header-desktop2 d-none d-lg-block">
                 <div class="section__content section__content--p30" style="text-align:center;">
@@ -181,13 +183,15 @@
                                                             <a href="#">
                                                                 <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                                             </a>
+                                                            <!-- style="display:inline-grid; text-align:center; padding-left:30px;" -->
                                                         </div>
-                                                        <div class="content name-bar" style="display:inline-grid; text-align:center; padding-left:30px;">
-                                                            <h5 class="name">
-                                                                <a href="#">Hiten Movaliya</a>
-                                                            </h5>
+                                                        <div class="content name-bar" >
+                                                            <div class="accountname">
+                                                                <a href="#" style="color:black;">Hiten Movaliya</a>
+                                                            </div>
                                                             <span class="email">Pyther</span>
                                                         </div>
+                                                    
                                                     </div>
                                                     <ul class="list-unstyled navbar__list">
                                                         <div>
@@ -235,8 +239,8 @@
                                                             </div>
                                                         </div>
                                                     </ul>
-                                                    <div  class="" >
-                                                        <button class="sign-s sign-btn au-btn-icon au-btn--green">
+                                                    <div  style="justify-content: center;text-align: center;" >
+                                                        <button  type="button" class=" btn btn-outline-primary sign-s sign-btn au-btn-icon au-btn-sign">
                                                             <i class="zmdi zmdi-power"></i>Signout</button> 
                                                     </div>
                                                 </div>
@@ -252,7 +256,7 @@
                     </div>
                 </div>
             </header>
-            <aside class=" menu-sidebar2 js-right-sidebar d-block d-lg-none">
+            <aside class=" menu-sidebar2 js-right-sidebar d-block d-lg-none" style="width: 250px;">
                 <div class="logo header-size">
                     <a href="#">
                         <img src="images/icon/logo-white.png" alt="Cool Admin" />
@@ -264,30 +268,30 @@
                             <li class="active has-sub">
                                 <a class="js-arrow" href="#">
                                     <i class="fas fa-tachometer-alt"></i>Overview
-                                    <span class="arrow">
+                                    <!-- <span class="arrow">
                                         <i class="fas fa-angle-down"></i>
-                                    </span>
+                                    </span> -->
                                 </a>
                             </li>
                             <li>
                                 <a href="inbox.html">
                                     <i class="fas fa-chart-bar"></i>Team</a>
-                                <span class="inbox-num">3</span>
+                                <!-- <span class="inbox-num">3</span> -->
                             </li>
                             <li class="has-sub">
                                 <a class="js-arrow" href="#">
                                     <i class="fas fa-trophy"></i>Sprayer
-                                    <span class="arrow">
+                                    <!-- <span class="arrow">
                                         <i class="fas fa-angle-down"></i>
-                                    </span>
+                                    </span> -->
                                 </a>
                             </li>
                             <li class="has-sub">
                                 <a class="js-arrow" href="#">
                                     <i class="fas fa-copy"></i>Routes
-                                    <span class="arrow">
+                                    <!-- <span class="arrow">
                                         <i class="fas fa-angle-down"></i>
-                                    </span>
+                                    </span> -->
                                 </a>
                             </li>
                         </ul>
@@ -298,141 +302,41 @@
 
             <!-- <div class="page-container"> -->
             <!-- BREADCRUMB-->
-            <section class="au-breadcrumb m-t-75" style="margin-top:29%;">
-                <div class="section__content section__content--p30">
+            <section class="au-breadcrumb m-t-75 " >
+                <!-- <div class="section__content section__content--p30"> -->
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12">
-                                <div class="au-breadcrumb-content">
+                            <div class="col-md-12" style=" height: 30px;">
+                                <div class="au-breadcrumb-content" >
                                     <div class="au-breadcrumb-left">
-                                        <span class="au-breadcrumb-span">You are here:</span>
-                                        <ul class="list-unstyled list-inline au-breadcrumb__list">
-                                            <li class="list-inline-item active">
-                                                <a href="#">Home</a>
-                                            </li>
-                                            <li class="list-inline-item seprate">
-                                                <span>/</span>
-                                            </li>
-                                            <li class="list-inline-item">Dashboard</li>
-                                        </ul>
+                                        <span class="au-breadcrumb-span"><i class="zmdi zmdi-account"></i></span>
                                     </div>
-                                    <button class="au-btn au-btn-icon au-btn--green">
-                                        <i class="zmdi zmdi-plus"></i>add item</button>
                                 </div>
                             </div>
+                            
+                            <div class="col-md-12" style="text-align: center;align-self: center; padding: 20px;">
+                                <a style="width: 50%;">
+                                    The sprayers Your team uses will show up here.
+                                </a><br>
+                                <a style="width: 50%;">
+                                    To get started, tap 'Add new sprayer'
+                                 </a>
+                                 <br/>
+                                 <button  type="button" class=" btn btn-primary sign-s sign-btn au-btn-icon au-btn-sign">
+                                    Add new sprayer  +</button> 
+                     
+                            </div>
+                            
                         </div>
                     </div>
-                </div>
+                <!-- </div> -->
             </section>
             <!-- END BREADCRUMB-->
 
-            <section>
-                <div class="section__content section__content--p30">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-xl-8">
-                                <!-- RECENT REPORT 2-->
-                                <div class="recent-report2" style="margin:20px;">
-                                    <h3 class="title-3">recent reports</h3>
-                                    <div class="chart-info">
-                                        <div class="chart-info__left">
-                                            <div class="chart-note">
-                                                <span class="dot dot--blue"></span>
-                                                <span>products</span>
-                                            </div>
-                                            <div class="chart-note">
-                                                <span class="dot dot--green"></span>
-                                                <span>Services</span>
-                                            </div>
-                                        </div>
-                                        <div class="chart-info-right">
-                                            <div class="rs-select2--dark rs-select2--md m-r-10">
-                                                <select class="js-select2" name="property">
-                                                    <option selected="selected">All Properties</option>
-                                                    <option value="">Products</option>
-                                                    <option value="">Services</option>
-                                                </select>
-                                                <div class="dropDownSelect2"></div>
-                                            </div>
-                                            <div class="rs-select2--dark rs-select2--sm">
-                                                <select class="js-select2 au-select-dark" name="time">
-                                                    <option selected="selected">All Time</option>
-                                                    <option value="">By Month</option>
-                                                    <option value="">By Day</option>
-                                                </select>
-                                                <div class="dropDownSelect2"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="recent-report__chart">
-                                        <canvas id="recent-rep2-chart"></canvas>
-                                    </div>
-                                </div>
-                                <!-- END RECENT REPORT 2             -->
-                            </div>
-                            <div class="col-xl-4">
-                                <!-- TASK PROGRESS-->
-                                <div class="task-progress" style="margin:20px;">
-                                    <h3 class="title-3">task progress</h3>
-                                    <div class="au-skill-container">
-                                        <div class="au-progress">
-                                            <span class="au-progress__title">Web Design</span>
-                                            <div class="au-progress__bar">
-                                                <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="90">
-                                                    <span class="au-progress__value js-value"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="au-progress">
-                                            <span class="au-progress__title">HTML5/CSS3</span>
-                                            <div class="au-progress__bar">
-                                                <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="85">
-                                                    <span class="au-progress__value js-value"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="au-progress">
-                                            <span class="au-progress__title">WordPress</span>
-                                            <div class="au-progress__bar">
-                                                <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="95">
-                                                    <span class="au-progress__value js-value"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="au-progress">
-                                            <span class="au-progress__title">Support</span>
-                                            <div class="au-progress__bar">
-                                                <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="95">
-                                                    <span class="au-progress__value js-value"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- END TASK PROGRESS-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-
-            <section>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="copyright">
-                                <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a
-                                        href="https://colorlib.com">Colorlib</a>.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- END PAGE CONTAINER-->
+        
             <!-- </div> -->
 
-        </div>
+        <!-- </div> -->
 
     </div>
 

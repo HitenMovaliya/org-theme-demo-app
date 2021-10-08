@@ -251,7 +251,7 @@ section {
 }
 
 .section__content--p30 {
-    padding: 0 30px;
+    padding: 0 0px;
 }
 
 @media (max-width: 991px) {
@@ -275,7 +275,7 @@ section {
 /*Page Objects*/
 .page-wrapper {
     overflow: hidden;
-    background: #e5e5e5;
+    background: #ffffff;
     padding-bottom: 8vh;
 }
 
@@ -465,7 +465,7 @@ section {
     line-height: 10px;
     /* padding: 0 30px; */
     text-transform: uppercase;
-    color: #fff;
+    color: #365cad;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -484,7 +484,6 @@ section {
     justify-content: center;
     margin-bottom: 10px; 
     border-bottom: 1px  solid #f2f2f2;
-    margin-left: 87px;
 }
 
 .au-btn:hover {
@@ -518,6 +517,10 @@ section {
     background: #63c76a;
 }
 
+.au-btn-sign{
+    background: #ffffff;
+    border: 1px solid #365cad;
+}
 .au-btn--green:hover {
     background: #59bd60;
 }
@@ -1450,7 +1453,6 @@ section {
 .name-bar{
     display: inline-grid;
     text-align: center;
-    padding-left: 30px;
 }
 
 .header-fixes{
@@ -1542,9 +1544,9 @@ section {
 }
 
 .account-dropdown .info .content {
-    margin-left: 65px;
+    margin-left: 38px;
     padding: 11px 0;
-    padding-left: 12px;
+    /* padding-left: 12px; */
 }
 
 .account-dropdown .info .content .name {
@@ -1576,7 +1578,7 @@ section {
     display: block;
     width: 22px;
     height: 14px;
-    border-bottom:9px solid #4272d7;
+    border-bottom:9px solid #365cad;
     border-top: 9px solid transparent;
     border-left: 9px solid transparent;
     border-right: 9px solid transparent;
@@ -2276,6 +2278,16 @@ section {
     margin-bottom: 5px;
 }
 
+.accountname{
+    font-size: 16px;
+    color: black;
+}
+
+.accountname_side{
+    font-size: 16px;
+    color: black;
+}
+
 .account2 > a {
     font-size: 14px;
     color: #999;
@@ -2381,7 +2393,7 @@ section {
 
 .header-desktop2 {
     height: 75px;
-    background: #4272d7;
+    background: #365cad;
     position: fixed;
     z-index: 1001;
     top: 0;
@@ -2782,7 +2794,7 @@ section {
 .header__navbar ul li a {
     display: block;
     font-size: 16px;
-    color: #ccc;
+    color: rgb(246, 244, 244);
     padding: 25px 30px;
     border-left: 1px solid rgba(255, 255, 255, 0.102);
 }
@@ -2816,8 +2828,8 @@ section {
 
 @media (max-width: 1315px) and (min-width: 992px) {
     .header__navbar ul li a {
-        font-size: 13px;
-        padding: 27px 15px;
+        font-size: 12px;
+        padding: 24px 56px
     }
 
     .header__navbar ul li a i {
@@ -4851,15 +4863,18 @@ section {
     background: #fff;
     position: relative;
     z-index: 0;
+  
 }
+
 
 @media (max-width: 991px) {
     .au-breadcrumb {
-        height: 130px;
+           height: 212px;
+       
     }
 
     .au-breadcrumb.m-t-75 {
-        margin-top: 0;
+        margin-top: 86px;
     }
 }
 
@@ -4920,8 +4935,8 @@ section {
 }
 
 .au-breadcrumb-span {
-    font-size: 14px;
-    color: #999;
+    font-size: 28px;
+    color: #365cad;
     display: inline-block;
 }
 
@@ -6592,7 +6607,7 @@ section {
 }
 
 .m-t-75 {
-    margin-top: 75px;
+    margin-top: 123px;
 }
 
 .m-r-75 {
