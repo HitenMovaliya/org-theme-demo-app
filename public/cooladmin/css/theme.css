@@ -291,10 +291,21 @@ section {
     padding-left: 300px;
 }
 
+.mobile-view{
+    top: 90px; 
+    height: 100vh;
+}
+@media (max-width: 991px) {
+    .mobile-view {
+        top: 103px; 
+        height: 100vh;
+    }
+}
+
 @media (max-width: 991px) {
     .page-container {
         position: relative;
-        top: 88px;
+        top: 0px;
         padding-left: 0;
     }
 }
@@ -476,6 +487,15 @@ section {
     cursor: pointer;
 }
 
+.btn_all:hover{
+    background: #037afb;
+    color: white;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
 
 .sign-s{
     width: auto;
@@ -483,12 +503,12 @@ section {
     text-align: center;
     justify-content: center;
     margin-bottom: 10px; 
-    border-bottom: 1px  solid #f2f2f2;
+    border-bottom: 1px solid #037afb;
 }
 
 .au-btn:hover {
     color: #fff;
-    background: #3868cd;
+    background: #f3f5f8;
 }
 
 .au-btn--blue2 {
@@ -2822,14 +2842,14 @@ section {
 
 @media (max-width: 1570px) and (min-width: 992px) {
     .header__navbar ul li a {
-        padding: 25px 15px;
+        padding: 25px 94px;
     }
 }
 
 @media (max-width: 1315px) and (min-width: 992px) {
     .header__navbar ul li a {
         font-size: 12px;
-        padding: 24px 56px
+        padding: 24px 76px
     }
 
     .header__navbar ul li a i {
@@ -3964,6 +3984,16 @@ section {
     width: 50%;
 }
 
+.Sprayer-data {
+    border-bottom: 1px solid #f2f2f2;
+    background: #fff;
+    padding: 23px;
+    padding-top: 9px;
+    padding-right: 21px;
+    padding-bottom: 25px;
+    margin-bottom: 24px;
+}
+
 .task-progress {
     border-bottom: 1px solid #f2f2f2;
     background: #fff;
@@ -3979,7 +4009,7 @@ section {
 }
 
 .task-progress .au-progress {
-    padding: 11px 0;
+    padding: 0px 0;
 }
 
 .recent-report2 {
